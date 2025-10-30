@@ -1,0 +1,14 @@
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/bin/Release/net8.0/win-x64/HelloWorld.exe
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/bin/Release/net8.0/win-x64/HelloWorld.deps.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/bin/Release/net8.0/win-x64/HelloWorld.runtimeconfig.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/bin/Release/net8.0/win-x64/HelloWorld.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/bin/Release/net8.0/win-x64/HelloWorld.pdb
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.AssemblyInfoInputs.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.AssemblyInfo.cs
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.csproj.CoreCompileInputs.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/refint/HelloWorld.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.pdb
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/HelloWorld.genruntimeconfig.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Release/net8.0/win-x64/ref/HelloWorld.dll
