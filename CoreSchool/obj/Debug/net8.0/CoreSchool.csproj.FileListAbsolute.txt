@@ -1,0 +1,15 @@
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/bin/Debug/net8.0/CoreSchool
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/bin/Debug/net8.0/CoreSchool.deps.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/bin/Debug/net8.0/CoreSchool.runtimeconfig.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/bin/Debug/net8.0/CoreSchool.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/bin/Debug/net8.0/CoreSchool.pdb
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.GeneratedMSBuildEditorConfig.editorconfig
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.AssemblyInfoInputs.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.AssemblyInfo.cs
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.csproj.CoreCompileInputs.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.sourcelink.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/refint/CoreSchool.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.pdb
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/CoreSchool.genruntimeconfig.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/CoreSchool/obj/Debug/net8.0/ref/CoreSchool.dll
