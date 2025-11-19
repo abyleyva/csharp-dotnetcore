@@ -1,0 +1,15 @@
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/bin/Debug/net8.0/Step01
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/bin/Debug/net8.0/Step01.deps.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/bin/Debug/net8.0/Step01.runtimeconfig.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/bin/Debug/net8.0/Step01.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/bin/Debug/net8.0/Step01.pdb
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.GeneratedMSBuildEditorConfig.editorconfig
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.AssemblyInfoInputs.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.AssemblyInfo.cs
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.csproj.CoreCompileInputs.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.sourcelink.json
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/refint/Step01.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.pdb
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/Step01.genruntimeconfig.cache
+/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/obj/Debug/net8.0/ref/Step01.dll
