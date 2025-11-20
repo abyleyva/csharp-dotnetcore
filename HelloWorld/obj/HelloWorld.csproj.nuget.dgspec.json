@@ -1,25 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/HelloWorld.csproj": {}
+    "\\\\wsl.localhost\\Ubuntu-20.04\\home\\abyleyva\\projects\\platzi\\csharp-dotnetcore\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/HelloWorld.csproj": {
+    "\\\\wsl.localhost\\Ubuntu-20.04\\home\\abyleyva\\projects\\platzi\\csharp-dotnetcore\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/HelloWorld.csproj",
+        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\abyleyva\\projects\\platzi\\csharp-dotnetcore\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/HelloWorld.csproj",
-        "packagesPath": "/home/abyleyva/.nuget/packages/",
-        "outputPath": "/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/",
+        "projectPath": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\abyleyva\\projects\\platzi\\csharp-dotnetcore\\HelloWorld\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\AbyLeyva\\.nuget\\packages\\",
+        "outputPath": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\abyleyva\\projects\\platzi\\csharp-dotnetcore\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/abyleyva/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\AbyLeyva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +42,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -53,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

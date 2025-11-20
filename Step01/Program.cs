@@ -3,17 +3,22 @@ using CoreSchool.Entities;
 
 var school = new School("test school aby", 2000, SchoolTypes.Primary,country:"Colombia",city:"Bogota");
 
-var Course1 = new Course()
+var arraryCourses=new Course[3];
+
+arraryCourses[0]=new Course()
 {
     Name="101",
     JournalType=JournalTypes.Partial
 };
+
 var Course2 = new Course()
 {
     Name="201",
     JournalType=JournalTypes.Final
 };
-var Course3 = new Course()
+arraryCourses[1]=Course2;
+
+arraryCourses[2]=new Course
 {
     Name="301",
     JournalType=JournalTypes.Extraordinary
@@ -25,6 +30,29 @@ var Course3 = new Course()
 Console.WriteLine(school.Name);
 Console.WriteLine(school);
 System.Console.WriteLine("++++++++++=++++++++++");
-Console.WriteLine($"Course1: {Course1.Name}, JournalType: {Course1.JournalType} Id: {Course1.UniqueId}");
-Console.WriteLine($"Course2: {Course2.Name}, JournalType: {Course2.JournalType} Id: {Course2.UniqueId}");
-Console.WriteLine($"Course3: {Course3.Name}, JournalType: {Course3.JournalType} Id: {Course3.UniqueId}");
+
+Console.WriteLine("Courses While: ");
+PrintCoursesWhile(arraryCourses);
+Console.WriteLine("Courses Do While: ");
+PrintCoursesDoWhile(arraryCourses);
+
+void PrintCoursesWhile(Course[] arraryCourses)
+{
+    int count = 0;
+    while (count < arraryCourses.Length)
+    {
+        Console.WriteLine($"Name: {arraryCourses[count].Name}, JournalType: {arraryCourses[count].JournalType} Id: {arraryCourses[count].UniqueId}");
+        count++;
+    }
+    
+}
+
+void PrintCoursesDoWhile(Course[] arraryCourses)
+{
+    int count = 0;
+    do
+    {
+        Console.WriteLine($"Name: {arraryCourses[count].Name}, JournalType: {arraryCourses[count].JournalType} Id: {arraryCourses[count].UniqueId}");
+        count++;
+    } while (count < arraryCourses.Length);
+}
