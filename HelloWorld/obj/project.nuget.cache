@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0/ZGjf77NPspIUCSRMzw8vIztySQXaU5+olBe4F0POR4CUIH5G3mbwugw8mP7qmS+7yIuv8aNxj595hSg8RRBA==",
+  "dgSpecHash": "HdXYKvKTQUk=",
   "success": true,
-  "projectFilePath": "/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/HelloWorld.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "/Users/abyleyva/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/abyleyva/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/abyleyva/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }
