@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "HdXYKvKTQUk=",
@@ -9,4 +10,13 @@
     "/Users/abyleyva/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
   ],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "ra67ettTo4s=",
+  "success": true,
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\abyleyva\\projects\\platzi\\csharp-dotnetcore\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> bdaed0a82ee6100643b6f765e492de4f8af4a5df
 }
