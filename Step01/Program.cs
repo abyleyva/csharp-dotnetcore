@@ -1,41 +1,53 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CoreSchool.Entities;
 
-var school = new School("test school aby", 2000, SchoolTypes.Primary,country:"Colombia",city:"Bogota");
+var school = new School("test school aby", 2000, SchoolTypes.Primary, country: "Colombia", city: "Bogota");
 
-var arraryCourses=new Course[3];
+school.Courses =
+[
+    new Course() { Name="101", JournalType=JournalTypes.Partial},
+    new Course() { Name="201", JournalType=JournalTypes.Final},
+    new Course() { Name="301", JournalType=JournalTypes.Extraordinary}
+];
 
-arraryCourses[0]=new Course()
+//school.Courses = null;
+
+PrintSchoolCourses(school);
+
+void PrintSchoolCourses(School school)
 {
-    Name="101",
-    JournalType=JournalTypes.Partial
-};
+    Console.WriteLine(school.Name);
+    Console.WriteLine("++++++++++++++++++++");
+    Console.WriteLine("List of Courses: ");
+    Console.WriteLine("++++++++++++++++++++");
 
-var Course2 = new Course()
-{
-    Name="201",
-    JournalType=JournalTypes.Final
-};
-arraryCourses[1]=Course2;
+    if (school?.Courses != null)
+    {
+        foreach (var course in school.Courses)
+        {
+            Console.WriteLine($"Name: {course.Name}, JournalType: {course.JournalType} Id: {course.UniqueId}");
 
-arraryCourses[2]=new Course
-{
-    Name="301",
-    JournalType=JournalTypes.Extraordinary
-};
+        }
+    }
+    else
+    {
+        Console.WriteLine("The school has no courses registered.");
+    }
 
-//school.Country = "USA";
-//school.City = "New York";
-//school.SchoolType=SchoolTypes.Secondary;
-Console.WriteLine(school.Name);
-Console.WriteLine(school);
-System.Console.WriteLine("++++++++++=++++++++++");
+}
 
-Console.WriteLine("Courses While: ");
-PrintCoursesWhile(arraryCourses);
+
+
+
+/* Console.WriteLine("Courses While: ");
+PrintCoursesWhile(school.Courses);
 Console.WriteLine("Courses Do While: ");
-PrintCoursesDoWhile(arraryCourses);
-
+PrintCoursesDoWhile(school.Courses);
+Console.WriteLine("Courses For: ");
+PrintCoursesFor(school.Courses);
+Console.WriteLine("Courses For Each: ");
+PrintCoursesForEach(school.Courses);
+ */
 void PrintCoursesWhile(Course[] arraryCourses)
 {
     int count = 0;
@@ -44,7 +56,7 @@ void PrintCoursesWhile(Course[] arraryCourses)
         Console.WriteLine($"Name: {arraryCourses[count].Name}, JournalType: {arraryCourses[count].JournalType} Id: {arraryCourses[count].UniqueId}");
         count++;
     }
-    
+
 }
 
 void PrintCoursesDoWhile(Course[] arraryCourses)
@@ -55,4 +67,20 @@ void PrintCoursesDoWhile(Course[] arraryCourses)
         Console.WriteLine($"Name: {arraryCourses[count].Name}, JournalType: {arraryCourses[count].JournalType} Id: {arraryCourses[count].UniqueId}");
         count++;
     } while (count < arraryCourses.Length);
+}
+
+void PrintCoursesFor(Course[] arraryCourses)
+{
+    for (int i = 0; i < arraryCourses.Length; i++)
+    {
+        Console.WriteLine($"Name: {arraryCourses[i].Name}, JournalType: {arraryCourses[i].JournalType} Id: {arraryCourses[i].UniqueId}");
+    }
+}
+
+void PrintCoursesForEach(Course[] arraryCourses)
+{
+    foreach (var course in arraryCourses)
+    {
+        Console.WriteLine($"Name: {course.Name}, JournalType: {course.JournalType} Id: {course.UniqueId}");
+    }
 }

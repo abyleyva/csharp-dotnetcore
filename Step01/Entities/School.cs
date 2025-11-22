@@ -23,6 +23,7 @@ namespace CoreSchool.Entities
         }
  */
         public SchoolTypes SchoolType { get; set; }
+        public Course[] Courses { get; set; }
 
         
 
