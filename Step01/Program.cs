@@ -3,12 +3,17 @@ using CoreSchool.Entities;
 
 var school = new School("test school aby", 2000, SchoolTypes.Primary, country: "Colombia", city: "Bogota");
 
-school.Courses =
-[
+school.Courses = new List<Course>(){
     new Course() { Name="101", JournalType=JournalTypes.Partial},
     new Course() { Name="201", JournalType=JournalTypes.Final},
     new Course() { Name="301", JournalType=JournalTypes.Extraordinary}
-];
+};
+    
+
+school.Courses.Add( new Course(){
+    Name="401",
+    JournalType=JournalTypes.Partial
+});
 
 //school.Courses = null;
 

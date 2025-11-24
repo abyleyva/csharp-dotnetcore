@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wHNnIAz0Vg=",
+  "dgSpecHash": "1CHfPdTs5mUCDUBuzFSAUeEN/tQsCvgIWBeWpGH6S7DmxZ27+16OMy4Kci936MUFoLTkA+GMZk+lNlHnyNjy2w==",
   "success": true,
-  "projectFilePath": "/Users/abyleyva/projects/platzi/csharp-dotnetcore/Step01/Step01.csproj",
-  "expectedPackageFiles": [
-    "/Users/abyleyva/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/abyleyva/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/abyleyva/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/abyleyva/projects/platzi/csharp-dotnetcore/Step01/Step01.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
