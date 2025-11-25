@@ -2,7 +2,7 @@ using System.Security.Authentication;
 
 namespace CoreSchool.Entities
 {
-    class School
+    public class School
     {
         string name;
         public string Name
