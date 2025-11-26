@@ -4,17 +4,17 @@ namespace CoreSchool.Entities
 {
     public class School
     {
-        string name;
+        string? name;
         public string Name
         {
-            get { return name; }
-            set {name=value.ToUpper(); }
+            get { return name ?? ""; }
+            set { name = value?.ToUpper(); }
         }
 
         public int YearOfFoundation { get; set; }
 
-        public string Country { get; set; }
-        public string City { get; set; }
+        public string? Country { get; set; }
+        public string? City { get; set; }
         
         /* public School(string name,int yearOfFoundation)
         {
@@ -23,15 +23,15 @@ namespace CoreSchool.Entities
         }
  */
         public SchoolTypes SchoolType { get; set; }
-        public List<Course> Courses { get; set; }
+        public List<Course>? Courses { get; set; }
 
         
 
-        public School(string name,int year)=>(Name, YearOfFoundation)=(name.ToUpper(), year);
+        public School(string name,int year)=>(Name, YearOfFoundation)=(name?.ToUpper() ?? "", year);
 
         public School(string name,int year, SchoolTypes schoolType,string country="",string city="")
         {
-            (Name,YearOfFoundation)=(name.ToUpper(), year);
+            (Name,YearOfFoundation)=(name?.ToUpper() ?? "", year);
             Country=country;
             City=city;
         }

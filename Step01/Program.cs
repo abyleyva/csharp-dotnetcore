@@ -1,20 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CoreSchool.Entities;
+using CoreSchool.Util;
 
 
 var engine = new CoreSchool.SchoolEngine();
 engine.Initialize();
 
-
-PrintSchoolCourses(engine.School);
-
+if (engine.School != null)
+{
+    PrintSchoolCourses(engine.School);
+}
 
 void PrintSchoolCourses(School school)
 {
-    Console.WriteLine(school.Name);
-    Console.WriteLine("++++++++++++++++++++");
-    Console.WriteLine("List of Courses: ");
-    Console.WriteLine("++++++++++++++++++++");
+    Printer.WriteHeader($"Welcomes to {school.Name}!");
+    Printer.WriteHeader("List of Courses");
 
     if (school?.Courses != null)
     {

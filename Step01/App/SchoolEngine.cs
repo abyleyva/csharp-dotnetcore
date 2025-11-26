@@ -1,8 +1,10 @@
+using CoreSchool.Entities;
+
 namespace CoreSchool
 {
     public class SchoolEngine
     {
-        public School School { get; set; }
+        public School? School { get; set; }
 
         public SchoolEngine()
         {
