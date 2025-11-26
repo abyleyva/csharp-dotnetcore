@@ -6,6 +6,9 @@ namespace CoreSchool.Entities
         public string? Name { get; set; }   
         public JournalTypes JournalType { get; set; }
 
+        public List<Asignature>? Asignatures { get; set; }
+        public List<Student>? Students {get; set;}
+
         public Course()=>UniqueId = Guid.NewGuid().ToString();
     }
 
