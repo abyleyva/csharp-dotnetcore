@@ -16,10 +16,6 @@ namespace CoreSchool
             
             LoadCourses();
             LoadAsignatures();
-            foreach (var course in School.Courses)
-            {
-                course.Students.AddRange(LoadStudents());
-            }
             LoadAssessments();
         }
 
@@ -32,8 +28,16 @@ namespace CoreSchool
                 new Course() { Name="401", JournalType=JournalTypes.Final},
                 new Course() { Name="501", JournalType=JournalTypes.Extraordinary}
             };
+
+            Random rnd=new Random();
+
+            foreach (var course in School.Courses)
+            {
+                int cantStudents=rnd.Next(5,20);
+                course.Students=GenerateStudents(cantStudents);
+            }
         }
-        private IEnumerable<Student> LoadStudents()
+        private List<Student> GenerateStudents(int quantity=10)
         {
             string[] firstName={"Pedro","Luis","Miguel","Sofia","Isabella","Valentina"};
             string[] secondName={"Maria","Juan","Carlos","Ana","Luis","Carmen"};
@@ -44,7 +48,7 @@ namespace CoreSchool
                             from a1 in lastName
                             select new Student{Name=$"{n1} {n2} {a1}"};
 
-            return StudentList;
+            return StudentList.OrderBy(s => s.UniqueId).Take(quantity).ToList();
         }
         private void LoadAsignatures()
         {
@@ -52,13 +56,13 @@ namespace CoreSchool
             {
                 var AsignatureList=new List<Asignature>()
                 {
-                    new Asignature{name="Math"},
-                    new Asignature{name="Spanish"},
-                    new Asignature{name="Science"},
-                    new Asignature{name="Arts"},
-                    new Asignature{name="Physical Education"} 
+                    new Asignature{Name="Math"},
+                    new Asignature{Name="Spanish"},
+                    new Asignature{Name="Science"},
+                    new Asignature{Name="Arts"},
+                    new Asignature{Name="Physical Education"} 
                 };
-                course.Asignature.AddRange(AsignatureList);
+                course.Asignatures= AsignatureList;
             }
         }
         private void LoadAssessments()

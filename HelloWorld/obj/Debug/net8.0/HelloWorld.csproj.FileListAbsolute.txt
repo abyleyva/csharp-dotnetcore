@@ -12,3 +12,4 @@
 /home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
 /home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
 /home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
+/home/abyleyva/projects/platzi/csharp-dotnetcore/HelloWorld/obj/Debug/net8.0/HelloWorld.sourcelink.json
