@@ -67,7 +67,28 @@ namespace CoreSchool
         }
         private void LoadAssessments()
         {
-            
+            foreach (var course in School.Courses)
+            {
+                foreach (var asignature in course.Asignatures)
+                {
+                    foreach (var student in course.Students)
+                    {
+                        var rnd=new Random(Environment.TickCount);
+                       
+                        for (int i = 1; i < 6; i++)
+                        {
+                            var assessment=new Assessment()
+                            {
+                                Name=$"Assessment {i}",
+                                Note=(float)(rnd.NextDouble()*5.0),
+                                Student=student,
+                                Asignature=asignature
+                            };
+                            student.Assessments.Add(assessment);
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -6,6 +6,12 @@ namespace CoreSchool.Entities
 
         public string Name {get; set;}
 
-        public Asignature()=>UniqueId=Guid.NewGuid().ToString();
+         public List<Assessment> Assessments{get; set;} = new List<Assessment>();
+
+        public Asignature()
+        {
+            UniqueId=Guid.NewGuid().ToString();
+            Assessments= new List<Assessment>();
+        }
     }
 }

@@ -4,7 +4,12 @@ namespace CoreSchool.Entities
     {
         public string UniqueId {get; private set;}
         public string Name{get; set;}
+        public List<Assessment> Assessments{get; set;}
 
-        public Student()=> UniqueId= Guid.NewGuid().ToString();
+        public Student()
+        {
+           UniqueId= Guid.NewGuid().ToString();
+           Assessments= new List<Assessment>();  
+        } 
     }
 }
